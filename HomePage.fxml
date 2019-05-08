@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #14316b;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXML.HomePageController">
+   <children>
+      <Pane prefHeight="400.0" prefWidth="172.0" style="-fx-background-color: #0c1d40;">
+         <children>
+            <AnchorPane layoutX="-14.5" layoutY="100.5">
+               <children>
+                  <Line endX="106.5" startX="-100.0" stroke="WHITE" />
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="68.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Downloads/student.png" />
+               </image>
+            </ImageView>
+            <Text fill="#ebe7e7" layoutX="16.0" layoutY="87.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Student Academy">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Label layoutX="4.0" layoutY="121.0" prefHeight="24.0" prefWidth="201.0" text="Welcome to Student Academy&#10;" textFill="#e4e4e4" />
+            <Label layoutX="15.0" layoutY="155.0" text="here you'll find your information" textFill="#fcf9f9">
+               <font>
+                  <Font size="10.0" />
+               </font>
+            </Label>
+            <Label layoutX="4.0" layoutY="190.0" prefHeight="20.0" prefWidth="93.0" text="Dashboards" textFill="#ebe7e7">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="myStudent" layoutX="54.0" layoutY="235.0" onAction="#myStudentAction" text="My Student" textFill="#fcf9f9" underline="true">
+               <font>
+                  <Font size="13.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="SearchStudent" layoutX="51.0" layoutY="267.0" onAction="#searchStudentAction" text="Search Student" textFill="#fcf9f9" underline="true">
+               <font>
+                  <Font size="14.0" />
+               </font></JFXButton>
+            <Line endX="106.5" layoutX="51.0" layoutY="314.0" startX="-100.0" stroke="WHITE" />
+            <JFXButton fx:id="contactus" layoutX="43.0" layoutY="333.0" onAction="#contactAction" text="Contact us" textFill="WHITE" underline="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="addStudent" layoutX="56.0" layoutY="210.0" onAction="#addStudent" text="Add Student" textFill="#fcf9f9" underline="true" />
+         </children>
+      </Pane>
+      <ImageView fitHeight="226.0" fitWidth="200.0" layoutX="171.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/square-sml-studentlife.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="200.0" layoutX="386.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/student-activities.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="218.0" layoutY="279.0" text="win competitions" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="434.0" layoutY="157.0" text="share knowledge" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="188.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Downloads/student_organization_fair_ithaca_college.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="423.0" layoutY="329.0" text="join open days clubs" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="334.0" layoutY="21.0" text="Welcome" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
