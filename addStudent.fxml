@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0c1d40;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="FXML.AddStudentController">
+   <children>
+      <Pane layoutX="143.0" layoutY="50.0" prefHeight="326.0" prefWidth="314.0" style="-fx-background-color: #1393c6;">
+         <children>
+            <JFXTextField fx:id="nameInput" focusColor="#2b87a1" layoutX="139.0" layoutY="56.0" promptText="Enter student's name" style="-fx-background-color: #0c1d40;" unFocusColor="#1027bf">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="surnameInput" focusColor="#2b87a1" layoutX="139.0" layoutY="117.0" promptText="Enter student's surname" style="-fx-background-color: #0c1d40;" unFocusColor="#1027bf">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="birthdayInput" focusColor="#2b87a1" layoutX="139.0" layoutY="177.0" promptText="Enter student's birthday" style="-fx-background-color: #0c1d40;" unFocusColor="#1027bf">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXTextField fx:id="moyInput" focusColor="#2b87a1" layoutX="139.0" layoutY="237.0" promptText="Enter student's moy" style="-fx-background-color: #0c1d40;" unFocusColor="#1027bf">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+            <Label layoutX="26.0" layoutY="61.0" text="First Name" textFill="#f8fafc">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="24.0" layoutY="121.0" text="Last Name" textFill="#f8fafc">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="25.0" layoutY="179.0" text="Birthday" textFill="#f8fafc">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="27.0" layoutY="242.0" text="Moy" textFill="#f8fafc">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="118.0" layoutY="14.0" text="Add Student" textFill="#fffefe">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="addInput" layoutX="218.0" layoutY="287.0" onAction="#addInputAction" style="-fx-background-color: #0c1d40;" text="Add" textFill="#f5f4f4">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </Pane>
+      <Label layoutX="230.0" layoutY="14.0" text="Student Academy" textFill="#fcf7f7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
